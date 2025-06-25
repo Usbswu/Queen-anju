@@ -5,33 +5,27 @@ module.exports = {
   //====================menu=================================
   MENUMSG: function (pushname, runtime, config) {
     return `
-✘◍ ꜱᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴛ. 
-ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ʙᴏᴛ.
+> *🪝 ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*🪝
 
-┏━━━━❮ 📆 ᴛᴏ ᴅᴀʏ 📆❯━━━━
-┃
-┃ 📅 Date Today : ${new Date().toLocaleDateString("en-GB", {
+*╭────── ❖ SYSTEM INFO ❖ ──────╮*
+*❘ 📅 Date Today :* ${new Date().toLocaleDateString("en-GB", {
       timeZone: "Asia/Colombo",
     })}
-┃ ⌚ Time Now : ${new Date().toLocaleTimeString("en-GB", {
+*❘ ⌚ Time Now :* ${new Date().toLocaleTimeString("en-GB", {
       timeZone: "Asia/Colombo",
     })}
-┃
-┗━━━━━━━━━━━━━━━
-┏━━━━❮📝 ᴅᴇᴛᴇʟᴇꜱ 📝❯━━━
-┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
-┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
-┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
-┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
-┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃📟 𝙷𝚘𝚜𝚝 : ${os.hostname()}
-┃🤴𝙾𝚠𝚗𝚎𝚛 : ${config.OWNER_NAME}
-┃🔊 𝙼𝚘𝚍𝚎 : ${config.MODE}
-┃🍁 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
-┃✨𝙼𝚎𝚖 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
+   })}
+*❘ 🍭 Bot Name : KAVI-MD V${packageJson.version}*
+*❘ 👾 Prefix : ${config.PREFIX}*
+*❘ 📚 Version : ${packageJson.version}*
+*❘ 📝 Platform : ${os.platform()}*
+*❘ 🤴 Owner : Kavidu Rasanga*
+*❘ 🔮 Mode : ${config.MODE}*
+*❘ 🍁 Uptime : ${runtime(process.uptime())}*
+*❘ ✨ Mem : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
       2
-    )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
-┗━━━━━━━━━━━━━━━
+    )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB*
+*╰─────────────────────────╯*    
         `.trim();
   },
   //======================download============================
@@ -69,11 +63,11 @@ Twitter URL: ${q}
   ALIVEVOICE: "./src/media/Auto_voice/alive.aac",
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
-🧚‍♂️⃟🩵 𝐐𝐔𝐄𝐄𝐍 𝐀𝐍𝐉𝐔 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 🧚‍♂️⃟🩵
+🫧 𝐊𝐀𝐕𝐈-𝐌𝐃 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 🫧
 
-✘◍ 𝗜'𝗺 𝗔𝗹𝗶𝘃𝗲, 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗔𝘀𝗸𝗶𝗻𝗴!
+🔮 *I'm Alive Now. . . !*
 
-┏━━━━❮ 📅 𝑻𝑶𝑫𝑎𝒚 📅❯━━━━
+┏━━━━❮ 📅 𝙏𝙊𝘿𝘼𝙔 📅❯━━━━
 ┃
 ┃ 📅 Date Today: ${new Date().toLocaleDateString("en-GB", {
       timeZone: "Asia/Colombo",
@@ -83,21 +77,18 @@ Twitter URL: ${q}
     })}
 ┃
 ┗━━━━━━━━━━━━━━━
-┏━━━━❮📝 𝗦𝘁𝗮𝘁𝘂𝘀 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 📝❯━━━
-┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
-┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
-┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
-┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
-┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${hostname}
-┃📟 𝙷𝚘𝚜𝚝 : ${os.hostname()}
-┃⚙️ 𝙼𝚘𝚍𝚎 : ${config.MODE}
-┃💻 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
-┃✨𝙼𝚎𝚖 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
+┏━━━━❮✨ *_STATUS DETAILS_* ✨❯━━━
+┃ 🍭 Bot Name : KAVI-MD V${packageJson.version}*
+┃ 👾 Prefix : ${config.PREFIX}*
+┃ 📚 Version : ${packageJson.version}*
+┃ 📝 Platform : ${os.platform()}*
+┃ 🤴 Owner : Kavidu Rasanga*
+┃ 🔮 Mode : ${config.MODE}*
+┃ 🍁 Uptime : ${runtime(process.uptime())}*
+┃ ✨ Mem : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
       2
-    )}MB / ${Math.round(require("os").totalmem / 1024 / 1024)}MB
+    )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB*
 ┗━━━━━━━━━━━━━━━
-
-💬 ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 𝚚𝚞𝚎𝚎𝚗 𝗮𝗻𝗷𝘂! ✨
         `.trim();
   },
   //====================movie======================================

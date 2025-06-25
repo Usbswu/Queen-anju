@@ -8,21 +8,20 @@ module.exports = {
 > *🪝 ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*🪝
 
 *╭────── ❖ SYSTEM INFO ❖ ──────╮*
-*❘ 📅 Date Today :* ${new Date().toLocaleDateString("en-GB", {
+ *❘ 📅 Date Today :* ${new Date().toLocaleDateString("en-GB", {
       timeZone: "Asia/Colombo",
     })}
-*❘ ⌚ Time Now :* ${new Date().toLocaleTimeString("en-GB", {
+ *❘ ⌚ Time Now :* ${new Date().toLocaleTimeString("en-GB", {
       timeZone: "Asia/Colombo",
     })}
-   })}
-*❘ 🍭 Bot Name : KAVI-MD V${packageJson.version}*
-*❘ 👾 Prefix : ${config.PREFIX}*
-*❘ 📚 Version : ${packageJson.version}*
-*❘ 📝 Platform : ${os.platform()}*
-*❘ 🤴 Owner : Kavidu Rasanga*
-*❘ 🔮 Mode : ${config.MODE}*
-*❘ 🍁 Uptime : ${runtime(process.uptime())}*
-*❘ ✨ Mem : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
+ *❘ 🍭 Bot Name : KAVI-MD V${packageJson.version}*
+ *❘ 👾 Prefix : ${config.PREFIX}*
+ *❘ 📚 Version : ${packageJson.version}*
+ *❘ 📝 Platform : ${os.platform()}*
+ *❘ 🤴 Owner : Kavidu Rasanga*
+ *❘ 🔮 Mode : ${config.MODE}*
+ *❘ 🍁 Uptime : ${runtime(process.uptime())}*
+ *❘ ✨ Mem : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
       2
     )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB*
 *╰─────────────────────────╯*    
@@ -67,7 +66,7 @@ Twitter URL: ${q}
 
 🔮 *I'm Alive Now. . . !*
 
-┏━━━━❮ 📅 𝙏𝙊𝘿𝘼𝙔 📅❯━━━━
+┏━━━━❮ 🔮 𝙏𝙊𝘿𝘼𝙔 🔮 ❯━━━━
 ┃
 ┃ 📅 Date Today: ${new Date().toLocaleDateString("en-GB", {
       timeZone: "Asia/Colombo",
@@ -78,14 +77,14 @@ Twitter URL: ${q}
 ┃
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮✨ *_STATUS DETAILS_* ✨❯━━━
-┃ 🍭 Bot Name : KAVI-MD V${packageJson.version}*
-┃ 👾 Prefix : ${config.PREFIX}*
-┃ 📚 Version : ${packageJson.version}*
-┃ 📝 Platform : ${os.platform()}*
-┃ 🤴 Owner : Kavidu Rasanga*
-┃ 🔮 Mode : ${config.MODE}*
-┃ 🍁 Uptime : ${runtime(process.uptime())}*
-┃ ✨ Mem : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
+┃ 🍭 *Bot Name :* *KAVI-MD V${packageJson.version}*
+┃ 👾 *Prefix :* *${config.PREFIX}*
+┃ 📚 *Version :* *${packageJson.version}*
+┃ 📝 *Platform :* *${os.platform()}*
+┃ 🤴 *Owner :* *Kavidu Rasanga*
+┃ 🔮 *Mode :* *${config.MODE}*
+┃ 🍁 *Uptime :* *${runtime(process.uptime())}*
+┃ ✨ *Mem :* *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
       2
     )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB*
 ┗━━━━━━━━━━━━━━━
